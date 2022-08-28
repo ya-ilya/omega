@@ -1,5 +1,6 @@
 package me.yailya.omega
 
+import me.yailya.omega.api.managers.ModuleManager
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.event.FMLInitializationEvent
 import org.apache.logging.log4j.LogManager
@@ -16,6 +17,8 @@ class Client {
 
     @Mod.EventHandler
     fun onInit(event: FMLInitializationEvent) {
-        logger.info("Omega Init Event")
+        logger.info("Loading managers...")
+        ModuleManager.load()
+        logger.info("Managers loaded!")
     }
 }
