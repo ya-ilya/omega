@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "omega",
+    "name": "Omega Client",
+    "description": "",
+    "version": "0.1",
+    "mcversion": "1.12.2",
+    "logoFile": "",
+    "url": "https://github.com/ya-ilya/omega",
+    "updateUrl": "https://github.com/ya-ilya/omega",
+    "authorList": [
+      "ya-ilya"
+    ],
+    "screenshots": [],
+    "dependencies": []
+  }
+]
