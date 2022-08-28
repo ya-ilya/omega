@@ -34,4 +34,8 @@ object ModuleManager {
                 .forEach { it.toggle() }
         }
     }
+
+    @JvmName("getByName")
+    operator fun get(name: String) =
+        modules.firstOrNull { it.name.lowercase() == name.lowercase() }
 }

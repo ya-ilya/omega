@@ -34,8 +34,8 @@ abstract class Module(
 
     constructor(name: String, category: Category) : this(name, "", category)
 
-    open fun onEnable() { }
-    open fun onDisable() { }
+    open fun onEnable() {}
+    open fun onDisable() {}
 
     fun toggle() {
         enabled = !enabled

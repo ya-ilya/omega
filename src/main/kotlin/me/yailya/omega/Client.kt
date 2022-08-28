@@ -1,5 +1,6 @@
 package me.yailya.omega
 
+import me.yailya.omega.api.managers.CommandManager
 import me.yailya.omega.api.managers.ModuleManager
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.event.FMLInitializationEvent
@@ -19,6 +20,7 @@ class Client {
     fun onInit(event: FMLInitializationEvent) {
         logger.info("Loading managers...")
         ModuleManager.load()
+        CommandManager.load()
         logger.info("Managers loaded!")
     }
 }

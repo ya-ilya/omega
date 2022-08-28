@@ -5,5 +5,4 @@ class IntegerSetting(
     initialValue: Int,
     range: IntRange,
     visibility: () -> Boolean = { true }
-) : NumberSetting<Int>(name, initialValue, range, visibility) {
-}
+) : NumberSetting<Int>(name, initialValue, range, visibility)
