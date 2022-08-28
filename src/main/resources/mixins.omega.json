@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.yailya.omega.mixin.mixins",
+  "refmap": "mixins.kappa.refmap.json",
+  "mixins": [
+
+  ]
+}
