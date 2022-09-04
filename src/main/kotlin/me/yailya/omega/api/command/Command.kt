@@ -4,7 +4,7 @@ import me.yailya.omega.api.util.ChatUtil
 
 abstract class Command(
     val name: String,
-    val description: String = ""
+    val description: String = "None"
 ) {
     abstract fun execute(args: List<String>)
 

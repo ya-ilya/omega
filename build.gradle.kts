@@ -67,6 +67,8 @@ dependencies {
         exclude(module = "gson")
     }
 
+    "include"(kotlin("stdlib-jdk8"))
+
     implementation(configurations["include"])
 }
 
